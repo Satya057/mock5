@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0.5em;
+    color: rgb(252, 33, 33);
+    justify-content: space-around;
+  box-shadow: rgba(209, 25, 25, 0.02) 0px 1px 3px 0px, rgba(16, 114, 212, 0.15) 0px 0px 0px 1px; 
+}
+ img{
+    /* width: 30px; */
+    height: 70px;
+}
+.logo{
+    width:25%;
+    height: 20px;  cursor: pointer;
+}
+.pages{
+     
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pages button{
+    border: none;
+    color: rgb(230, 11, 11);
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+ 
+p:hover{
+    color: rgb(241, 25, 25);
+}
+#navbar button:hover{
+     color: rgb(234, 28, 28);
+     
+}
